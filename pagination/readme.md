@@ -16,3 +16,9 @@ I wanted to give the user the ability to load each file one at a time.
 
 ### Add Stats
 * Use the html shell `index_vars_bokeh.html`
+* #TODO Python workflow to input custom bokeh charts
+
+## Resources
+
+This code was adapted from [{THATSOFTWAREDUDE}](https://www.thatsoftwaredude.com/content/6125/how-to-paginate-through-a-collection-in-javascript)
+
