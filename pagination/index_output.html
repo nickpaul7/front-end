@@ -1,0 +1,478 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+
+
+<script type="text/javascript">
+    var currentPage = 0;
+    var numberOfPages = 3;
+    var ihtml = [`<HMTL>
+<HEAD>
+<TITLE>webpage1</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFf" LINK="006666" ALINK="8B4513" VLINK="006666">
+<TABLE WIDTH="75%" ALIGN="center">
+<TR>
+<TD>
+<DIV ALIGN="center"><H1>STARTING . . . </H1></DIV>
+
+
+<DIV ALIGN="justify"><P>There are lots of ways to create web pages using already coded programmes. These lessons will teach you how to use the underlying HyperText Markup Language -  HTML. 
+<BR>
+<P>HTML isn't computer code, but is a language that uses US English to enable texts (words, images, sounds) to be inserted and formatting such as colo(u)r and centre/ering to be written in. The process is fairly simple; the main difficulties often lie in small mistakes - if you slip up while word processing your reader may pick up your typos, but the page will still be legible. However, if your HTML is inaccurate the page may not appear - writing web pages is, at the least, very good practice for proof reading!</P>
+
+<P>Learning HTML will enable you to:
+<UL>
+<LI>create your own simple pages
+<LI>read and appreciate pages created by others
+<LI>develop an understanding of the creative and literary implications of web-texts
+<LI>have the confidence to branch out into more complex web design 
+</UL></P>
+
+<P>A HTML web page is made up of tags. Tags are placed in brackets like this <B>< tag > </B>. A tag tells the browser how to display information. Most tags need to be opened < tag > and closed < /tag >.
+
+<P> To make a simple web page you need to know only four tags:
+<UL>
+<LI>< HTML > tells the browser your page is written in HTML format
+<LI>< HEAD > this is a kind of preface of vital information that doesn't appear on the screen. 
+<LI>< TITLE >Write the title of the web page here - this is the information that viewers see on the upper bar of their screen. (I've given this page the title 'webpage1').
+<LI>< BODY >This is where you put the content of your page, the words and pictures that people read on the screen. 
+</UL>
+<P>All these tags need to be closed.
+
+<H4>EXERCISE</H4>
+
+<P>Write a simple web page.</P>
+<P> Copy out exactly the HTML below, using a WP program such as Notepad.<BR>
+Information in <I>italics</I> indicates where you can insert your own text, other information is HTML and needs to be exact. However, make sure there are no spaces between the tag brackets and the text inside.<BR>
+(Find Notepad by going to the START menu\ PROGRAMS\ ACCESSORIES\ NOTEPAD). 
+<P>
+< HTML ><BR>
+< HEAD ><BR>
+< TITLE ><I> title of page</I>< /TITLE ><BR>
+< /HEAD ><BR>
+< BODY><BR>
+<I> write what you like here: 'my first web page', or a piece about what you are reading, or a few thoughts on the course, or copy out a few words from a book or cornflake packet.  Just type in your words using no extras such as bold, or italics, as these have special HTML tags, although you may use upper and lower case letters and single spaces. </I><BR>
+
+< /BODY ><BR>
+< /HTML ><BR>
+
+<P>Save the file as 'first.html' (ie. call the file anything at all) It's useful if you start a folder - just as you would for word-processing - and call it something like WEBPAGES, and put your first.html file in the folder.
+
+<P>NOW - open your browser.<BR>
+On Netscape the process is: <BR>  
+Top menu; FILE\ OPEN PAGE\ CHOOSE FILE<BR> 
+Click on your WEBPAGES folder\ FIRST file<BR>
+Click 'open' and your page should appear.
+<P>On Internet Explorer: <BR>
+Top menu; FILE\ OPEN\ BROWSE <BR> 
+Click on your WEBPAGES folder\ FIRST file<BR>
+Click 'open' and your page should appear.<BR>
+
+
+<P>If the page doesn't open, go back over your notepad typing and make sure that all the HTML tags are correct. Check there are no spaces between tags and internal text; check that all tags are closed; check that you haven't written < HTLM > or < BDDY >.  Your page will work eventually. 
+<P>
+Make another page. Call it somethingdifferent.html and place it in the same WEBPAGES folder as detailed above.
+<P>start formatting in <A HREF="webpage2.html">lesson two</A>
+<BR><A HREF="col3.html">back to wws index</A> </P>
+</P>
+ 
+  
+</DIV>
+
+
+</TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+`, `<HMTL>
+<HEAD>
+<TITLE>webpage2</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFf" LINK="006666" ALINK="8B4513" VLINK="006666">
+<TABLE WIDTH="75%" ALIGN="center">
+<TR>
+<TD>
+<DIV ALIGN="center"><H1>Fi<FONT COLOR="green">rst S</FONT><FONT COLOR="pink">teps </FONT><FONT COLOR="red">in For</FONT><FONT COLOR="yellow">ma</FONT><FONT COLOR="blue">tting</FONT></H1></DIV>
+
+
+<DIV ALIGN="justify">
+
+<P>The formatting of words has always been an integral part of the writing/ reading process: think about hand-written medieval manuscripts with their beautiful illuminated texts, or consider the design of the inside pages of contemporary novels or, indeed, of your essays and dissertations (page size, title page, contents, bibliography, font size, punctuation ...). We have become so familiar with certain print conventions that the medium has become largely transparent or, when it does assert itself we tend to 'feel' it as a sensual artifact ("I like taking books to bed"). </P>
+
+<P>A new medium such as the web demands self-conscious attention to the format of its text, and millions of words (print and online) are dedicated to the topic of 'web design'.  More precisely, within the genre of web-specific fiction, formatting techniques are used to generate literary/ artistic meaning, and explicit attention to formatting is the first characteristic of web writing. </P>
+
+<P> &nbsp; </P>
+
+<P>
+This lesson will teach you simple formatting:<BR> how to change the colo(u)r of the font and background, how to apply font emphasis such as bold or italic, how to change the size of your font, and how to position text on the page. 
+<P> &nbsp; </P>
+
+<H4>BODY <FONT COLOR="orange">COLO(U)R</FONT></H4>
+<P>
+To change the body colo(u)r you need to add the attribute to the &nbsp;  < BODY > tag, like this:<P> < BODY BGCOLOR="black" >
+
+ <P> &nbsp; </P>
+
+<H4><FONT COLOR="green"><B> FONT ATTRIBUTES</B></FONT> </H4>
+
+<P> You can specify the font colour by using the BODY tag:
+<P>
+< BODY BGCOLOR="black" TEXT="green" >
+<P> 
+Or you can stipulate the attributes of different chunks of text throughout the body of the page. 
+<BR> This involves a new tag, the < FONT > tag and its partner < /FONT>.
+<P>You type the font tag at the beginning and end of your text to change features such as colour and size. For example:
+<P>< FONT COLOR="red" SIZE="4"><FONT COLOR="red" SIZE="4"> This is quite bold and bright</FONT> < /FONT >
+<BR>You can use numbers 1-7 inclusive.</P>
+<P> < B > <B> bold  </B>< /B></P>
+<P> < I > <I> italic </I>< /I > </P>
+<P> < U > <U> underline </U> < /U ></P>
+
+<P> < H > Heading tags can be used from a large < H1>  down to a very small font < H6 >, and tags must always be closed. <BR>
+For example: <H1> < H1 > BIG HEADING < /H1 > </H1> Try the out the other sizes, and note the space above and below the typed line.  </P>
+	
+
+<P> &nbsp; </P>
+
+<H4><FONT COLOR="blue"> POSITIONING TEXT </FONT></H4>
+
+
+<P>< BR > This forces a line break. <BR> < BR > This tag doesn't need to be closed.
+
+ 
+<P>< P > Starts a paragraph. Close like so: < /P > </P> 
+<P> < P > Then repeat to start the next paragraph, and pay attention to the line spacing that results from this technique. < /P ></P>
+<P> < P>  Are you getting the hang of this? It is quite a challenge to position text accurately with these basic techniques - not like word processing at all. Later on you can learn how to draw TABLES - a grid which enables the precise setting of web page elements - but, for now, see how much you can do with a few simple tricks.   < /P > </P>
+
+
+
+<P><CENTER> < CENTER > puts text in the centre of a page. Close < /CENTER > </CENTER>
+
+<P>< PRE > <PRE>
+		This enables you to have some control
+		over the positioning of text.
+		BUT
+		the font, as you see, is mono-type.
+
+		Remember 
+		to
+                    close
+                           the
+			        tag.</PRE> < /PRE ></P>
+
+<P> &nbsp; </P>
+<P>Don't forget - there is no space between the brackets and the text inside.</P>
+
+<P> and just for fun: < HR > draws a horizonal line across the page. No need to close this tag. <HR> </P>
+
+<P>
+<BR>
+
+
+<H4><FONT COLOR="red">EXERCISE</FONT></H4>
+
+Have some fun and produce a web page that exploits the colour and font attributes you have learnt.  <BR>
+Take a piece of print writing - your own or a found text - and convert it into HTML. Stretch the simple techniques of this lesson. Focus on the <I>process</I>: play and make mistakes and see where such mistakes take you. When you have written something you like, or you get bored and want to move on, save your page in your WEBPAGES folder. </P>
+
+
+<P> &nbsp; </P>
+
+<H4><FONT COLOR="purple">EXTRA</FONT></H4>
+
+<P>
+COLOUR: There are more complicated and subtle ways of choosing and writing colo(u)rs than by using their ordinary names. This involves specifying the 'hexadecimal' number of each of the 216 web-safe colo(u)rs. When you are ready, check out <A HREF="http://trace.ntu.ac.uk/mentors/madigan/colours.htm" TARGET="_BLANK"> these pages by Kaz Madigan</A> (opens in new browser). Click on the 'web safe colours' link. <BR>
+But everyday names are fine to start with</P>
+ 
+
+<p> &nbsp; </P>
+<P> In the next lesson we look at how to make links to other pages (your own pages and those already on the web). 
+
+<P>go to:
+<P>lesson one: <A HREF="webpage1.html">a simple web page</A>&nbsp; &nbsp; &nbsp;
+lesson three: <A HREF="webpage3.html">linking web texts </A><BR>
+<A HREF="col3.html">back to wws index</A> </P>
+</P>
+</DIV>
+
+
+</TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+`, `<HMTL>
+<HEAD>
+<TITLE>webpage3</TITLE>
+ 
+</HEAD>
+<BODY BGCOLOR="FFFFFF" LINK="006666" ALINK="8B4513" VLINK="006666">
+
+<TABLE WIDTH="75%" ALIGN="center" BORDER="0" CELLPADDING="2">
+<TR>
+<TD WIDTH="80%">
+<DIV ALIGN="center"><H1>Making + Connections:<BR>Linking + Webtexts</H1></DIV>
+
+
+<DIV ALIGN="center"><FONT SIZE="4"> "The metaphor of the Text is that of the network"</FONT> Roland Barthes
+
+<DIV ALIGN="justify"><P>We now turn to the second innovative  characteristic of the web for creative work: the ability to allow clickable links, known as hyperlinks or hypertext. In fact, for many people hypertext <I>is</I> the web.</P>
+
+<P>  A useful way to begin to understand the connectivity of the web is to make your own links. This is relatively straightforward, once you have got used to being very precise with your typing.</P>
+<P> &nbsp; </P>
+<H4>LINK TO ANOTHER WEB SITE</H4>
+<P>This is written via a tag that needs to be opened and closed.<BR>
+Choose a web page you would like to link to - it could be one of a favourite writer, a home page of a friend, or your favourite band. Note the URL (address of the first page of the site). (The easiest way is to highlight this in the bar above the page, then copy it ready to paste into your tag.) 
+
+<P>This is the tag you use:
+<P>
+< A HREF="http://www.website" ><I>your text</I> < /A>
+
+<P>Be sure that:
+<UL>
+<LI>there are no spaces between the tag and the text
+<LI>you enter the full URL</UL>
+
+<P> example - here is the HTML for a link to The Center for Women and Information Technology at Maryland University, Baltimore County, USA<BR>
+
+<P>< A HREF="http://www.umbc.edu/cwit/" ><A HREF="http://www.umbc.edu/cwit/" TARGET="_blank"> CWIT </A>< /A>
+<P> The link is live - try it! 
+<P> &nbsp; </P>
+
+
+<H4>LINKS BETWEEN YOUR OWN PAGES</H4>
+<P>When you have written more than one page you can make links between them. This is the tag you use:<BR>
+< A HREF="yourpage.html" ><I>linking text </I>< /A>
+
+<P>
+example- here is the HTML code for a link to the first web page lesson:
+<P>< A HREF="webpage1.html > <A HREF="webpage1.html" TARGET="_blank"><I>A Simple Web Page </I></A>< /A> 
+<P> I could have written anything instead of 'A Simple Web Page' - written a whole paragraph, or inserted an image (see next lesson): it's the < A > tags that do the work.
+
+<P> &nbsp; </P>
+<H4>A LINK TO YOUR OWN EMAIL ADDRESS</H4>
+
+<P>This is the tag I would use:<BR>
+<P>< A HREF="mailto:eakn1@york.ac.uk" > <A HREF="mailto:eakn1@york.ac.uk"><I>email me </I> </A>< /A>
+<P>This HTML opens up an email message page. Try the one above to see what happens - and send me a message when you reach this point.
+
+<P> &nbsp; </P>
+<H4>LINKING FROM IMAGES</H4>
+
+<P> This is covered in <A HREF="webpage4.html">lesson four</A>.
+<P> &nbsp; </P>
+
+<H4>EXERCISE: MAKING <I>YOUR</I> CONNECTIONS</H4>
+<P>Plan a simple web site on paper with a home page and at least five links. These should include a link between at least two pages of your own, as well as links to other pages on the net and a live email link. This is an exercise, not a definitive site, so don't worry too much about what you choose. Scribble your ideas, include arrows to show where you will put the links and which direction they will link.  Your plan might look something like this. 
+<BR><IMG SRC="page.gif">
+<BR>Now transfer your plan to an electronic format and save your work in your WEBPAGES folder.
+</P>
+
+ 
+
+<BR>&nbsp;<BR>
+
+<P>links:<BR>
+lesson one: <A HREF="webpage1.html">A Simple Web Page</A> &nbsp; &nbsp; &nbsp; lesson two: <A HREF="webpage2.html">Simple Formatting</A><BR>lesson four: <A HREF="webpage4.html">Images</A></P>
+<P><A HREF="col3.html">back to wws index</A> </P> 
+
+  
+</DIV>
+
+
+</TD>
+</TR>
+</TABLE>
+
+ 
+
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+`];
+    
+
+function nextPage() {
+    currentPage += 1;
+    loadList();
+}
+
+function previousPage() {
+    currentPage -= 1;
+    loadList();
+}
+
+function firstPage() {
+    currentPage = 0;
+    loadList();
+}
+
+function lastPage() {
+    currentPage = numberOfPages - 1;
+    loadList();
+}
+
+function loadList() {
+    drawList();
+    check();
+}
+    
+function drawList() {
+    document.getElementById("list").innerHTML = "";
+    document.getElementById("list").innerHTML = "Page " + (currentPage + 1) + " of " + numberOfPages + "<br>" + ihtml[currentPage] ;
+    
+}
+
+function showAll(){
+	currentPage = numberOfPages + 1;
+	document.getElementById("list").innerHTML ="";
+	for (r = 0; r < numberOfPages; r++) {
+        	document.getElementById("list").innerHTML += ihtml[r] + "<br/>" + "<hr>";
+    }
+    	document.getElementById("next").disabled = true;
+    	document.getElementById("previous").disabled = true;
+    	document.getElementById("first").disabled = false;
+    	document.getElementById("last").disabled = false;	
+}
+
+function showStats(){
+
+	var x = document.getElementById("c9a7604d-bdb7-49e3-aa7c-2e2f9baeac3a");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+
+}
+
+function check() {
+    document.getElementById("next").disabled = currentPage == numberOfPages -1 ? true : false;
+    document.getElementById("previous").disabled = currentPage == 0 ? true : false;
+    document.getElementById("first").disabled = currentPage == 0 ? true : false;
+    document.getElementById("last").disabled = currentPage == numberOfPages -1 ? true : false;
+}
+
+function load() {
+
+    loadList();
+}
+    
+window.onload = load;
+</script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+    
+
+    <div style="text-align:center;">
+    <input type="button" id="showStats" onclick="showStats()" value="Stats" />
+    <input type="button" id="first" onclick="firstPage()" value="first" />
+    <input type="button" id="next" onclick="nextPage()" value="next" />
+    <input type="button" id="previous" onclick="previousPage()" value="previous" />
+    <input type="button" id="last" onclick="lastPage()" value="last" />
+    <input type="button" id="All" onclick="showAll()" value="All" />
+    <div class="bk-root" id="c9a7604d-bdb7-49e3-aa7c-2e2f9baeac3a" data-root-id="1004"></div>
+    <div id="list"></div>
+    
+    </div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1451">
+          {"370c41bb-ece1-4f14-97b0-bc474ba16e0f":{"roots":{"references":[{"attributes":{"axis":{"id":"1015"},"ticker":null},"id":"1018","type":"Grid"},{"attributes":{},"id":"1025","type":"SaveTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1026"},{"id":"1027"},{"id":"1029"}]},"id":"1030","type":"Toolbar"},{"attributes":{"overlay":{"id":"1028"}},"id":"1024","type":"BoxZoomTool"},{"attributes":{},"id":"1011","type":"LinearScale"},{"attributes":{"factors":["All Fulls","Mixed","All Assessments"]},"id":"1009","type":"FactorRange"},{"attributes":{"fill_color":{"value":"#1f77b4"},"height":{"value":0.3},"line_color":{"value":"#1f77b4"},"right":{"field":"value"},"y":{"field":"type"}},"id":"1039","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.3},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"field":"value"},"y":{"field":"type"}},"id":"1040","type":"HBar"},{"attributes":{},"id":"1048","type":"UnionRenderers"},{"attributes":{"callback":null,"tooltips":[["Type","@type"],["Value","(@value)"]]},"id":"1029","type":"HoverTool"},{"attributes":{"source":{"id":"1003"}},"id":"1042","type":"CDSView"},{"attributes":{"formatter":{"id":"1046"},"ticker":{"id":"1020"}},"id":"1019","type":"CategoricalAxis"},{"attributes":{},"id":"1044","type":"BasicTickFormatter"},{"attributes":{},"id":"1046","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1049","type":"Selection"},{"attributes":{"below":[{"id":"1015"}],"center":[{"id":"1018"},{"id":"1021"}],"left":[{"id":"1019"}],"renderers":[{"id":"1041"}],"title":{"id":"1005"},"toolbar":{"id":"1030"},"x_range":{"id":"1007"},"x_scale":{"id":"1011"},"y_range":{"id":"1009"},"y_scale":{"id":"1013"}},"id":"1004","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1022","type":"PanTool"},{"attributes":{},"id":"1007","type":"DataRange1d"},{"attributes":{"axis":{"id":"1019"},"dimension":1,"ticker":null},"id":"1021","type":"Grid"},{"attributes":{"text":"title"},"id":"1005","type":"Title"},{"attributes":{},"id":"1026","type":"ResetTool"},{"attributes":{"formatter":{"id":"1044"},"ticker":{"id":"1016"}},"id":"1015","type":"LinearAxis"},{"attributes":{"data":{"index":[0,1,2],"type":["All Fulls","Mixed","All Assessments"],"value":[103,97,100]},"selected":{"id":"1049"},"selection_policy":{"id":"1048"}},"id":"1003","type":"ColumnDataSource"},{"attributes":{},"id":"1023","type":"WheelZoomTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1028","type":"BoxAnnotation"},{"attributes":{},"id":"1013","type":"CategoricalScale"},{"attributes":{"data_source":{"id":"1003"},"glyph":{"id":"1039"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1040"},"selection_glyph":null,"view":{"id":"1042"}},"id":"1041","type":"GlyphRenderer"},{"attributes":{},"id":"1020","type":"CategoricalTicker"},{"attributes":{},"id":"1027","type":"HelpTool"},{"attributes":{},"id":"1016","type":"BasicTicker"}],"root_ids":["1004"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1451').textContent;
+                  var render_items = [{"docid":"370c41bb-ece1-4f14-97b0-bc474ba16e0f","root_ids":["1004"],"roots":{"1004":"c9a7604d-bdb7-49e3-aa7c-2e2f9baeac3a"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
